@@ -35,7 +35,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) => TabBarWidget(
         title: MyApp.title,
         tabs: [
-          Tab(icon: Icon(Icons.sort_by_alpha), text: 'Sortable'),
+          Tab(icon: Icon(Icons.precision_manufacturing_outlined), text: 'Manufacturing'),
           Tab(icon: Icon(Icons.select_all), text: 'Selectable'),
           Tab(icon: Icon(Icons.edit), text: 'Editable'),
         ],
